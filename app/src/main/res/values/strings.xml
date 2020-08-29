@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HungriFoodie</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="otp_4_digits">OTP(4 digits)</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP below</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My profile</string>
+    <string name="favourites">Favourites</string>
+    <string name="order_history">Order History</string>
+    <string name="faq">FAQ</string>
+    <string name="john_doe">John Doe</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_rating">Sort by rating</string>
+    <string name="sort_by_cost">Sort by cost</string>
+</resources>

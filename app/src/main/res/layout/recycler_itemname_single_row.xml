@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llcontent"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:padding="5dp">
+        <View
+            android:id="@+id/dot"
+            android:layout_width="17dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="14dp"
+            android:background="#880e4f" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Aaloo paratha"
+            android:id="@+id/foodname"
+            android:padding="5dp"
+            android:layout_weight="3"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/foodcost"
+            android:text="Rs.30"
+            android:padding="5dp"
+            android:textSize="14sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</RelativeLayout>

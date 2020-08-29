@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.OrderhistoryFragment">
+
+    <TextView
+        android:id="@+id/previousordertxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Previous Order Items"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+    <View
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="4dp"
+        android:layout_below="@+id/previousordertxt"
+        android:layout_marginTop="5dp"
+        android:background="#880e4f"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerhistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_below="@+id/line"
+        android:layout_margin="5dp"
+        android:padding="10dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/progresslayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/progressBar"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ntgtoshowlayout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nothing to show"
+            android:layout_centerInParent="true"
+            android:paddingLeft="130dp"
+            android:textSize="25sp"
+            android:textColor="#616161"/>
+    </RelativeLayout>
+
+</RelativeLayout>

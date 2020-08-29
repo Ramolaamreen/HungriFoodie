@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginnActivity"
+    android:orientation="vertical"
+    android:background="@drawable/foodbackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3fff"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/HungrieFoodie"
+            android:layout_width="328dp"
+            android:layout_height="224dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#c51162"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etMobileNumber"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textColorHint="#FFFBF8" />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColorHint="#FFFBF8" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnpink"
+            android:text="sign in"
+            android:textColor="#FFFBF8"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/Forgotpassword"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Forgot password?"
+            android:textColor="#FFFBF8"
+            android:textSize="15sp"
+            android:onClick="forgotPassword"
+            android:clickable="true"
+
+             />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="80dp"
+            android:gravity="center"
+            android:text="REGISTER"
+            android:textColor="#03DAC5"
+            android:textSize="20sp"
+            android:onClick="register"
+
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

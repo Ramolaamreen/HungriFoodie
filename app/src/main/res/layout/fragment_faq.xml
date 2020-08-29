@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FaqFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/Q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:padding="5dp"
+        android:text="Q1.Is there a minimum order value?"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A1"
+        android:layout_below="@id/Q1"
+        android:textColor="#212121"
+        android:text="A1.In most cases, no. The minimum order amount is always indicated, or is seen on the restaurant page."
+        android:textSize="14sp"
+
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/Q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/A1"
+        android:padding="5dp"
+        android:text="Q2.Can I select food from multiple restaurants in a single order?"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A2"
+        android:layout_below="@id/Q2"
+        android:textColor="#212121"
+        android:text="A2.You cannot select food from multiple restaurants in a single order. You can however place multiple orders, one each for a different restaurant."
+        android:textSize="14sp"
+        android:padding="5dp"
+
+        />
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/A2"
+        android:padding="5dp"
+        android:text="Q3.I didn't receive my OTP?"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A3"
+        android:layout_below="@id/Q3"
+        android:padding="5dp"
+        android:textColor="#212121"
+        android:text="A3.This may happen at times due to network issues. Not to worry! You can opt for Verify me via call to get OTP via call."
+        android:textSize="14sp"
+
+        />
+    <TextView
+        android:id="@+id/Q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/A3"
+        android:padding="5dp"
+        android:text="Q4.How much time do you take to deliver?"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A4"
+        android:padding="5dp"
+        android:layout_below="@id/Q4"
+        android:textColor="#212121"
+        android:text="A4.When you place an order, it’s instantly sent to the restaurant for them to confirm, prepare and package. Delivery time is calculated based on the distance between your location and the restaurant, food preparation time and availability of our delivery executives. The estimated delivery time is indicated on the restaurant page."
+        android:textSize="14sp"
+
+        />
+    <TextView
+        android:id="@+id/Q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/A4"
+        android:padding="5dp"
+        android:text="Q5.I want to explore career opportunities with HungriFoodie.How can I do it?"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A5"
+        android:layout_below="@id/Q5"
+        android:padding="5dp"
+        android:textColor="#212121"
+        android:text="A5.You can write to us at careers@hungrifoodie.in.Our HR team shall get back to you."
+        android:textSize="14sp"
+
+        />
+
+
+</RelativeLayout>
